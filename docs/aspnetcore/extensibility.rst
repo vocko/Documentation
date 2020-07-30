@@ -24,7 +24,7 @@ If you want to take over the token handling altogether, replace the ``IUserToken
 
 Configuration
 -------------
-By default, clients statically configured in startup. But there are situations where you want to resolve configuration dynamically, e.g.
+By default, clients are statically configured in startup. But there are situations where you want to resolve configuration dynamically, e.g.
 for endpoint URLs or creating client assertions on the fly.
 
 The default configuration service reads all configuration from startup. You can either replace the whole system,
